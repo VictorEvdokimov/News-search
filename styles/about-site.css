@@ -1,0 +1,40 @@
+.about-site {
+  margin: 16px 16px 0;
+}
+
+.about-site__title {
+  margin: 0;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1a1b22;
+}
+
+.about-site__description {
+  margin: 16px auto;
+  font-family: roboto;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-site {
+    margin: 29px 40px 0;
+    max-width: 817px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-site {
+    margin: 80px 104px 94px;
+  }
+
+  .about-site__title {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .about-site__description {
+    margin: 24px auto 0;
+  }
+}

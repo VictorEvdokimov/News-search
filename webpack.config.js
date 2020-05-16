@@ -21,6 +21,16 @@ module.exports = {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
       },
+      {
+        test: /\.(png|jpe?g|gif|ico|svg|eot|ttf|woff?2)$/i,
+        use: [
+          "file-loader?name=./vendor/[name].[ext]",
+          {
+            loader: "image-webpack-loader",
+            options: {},
+          },
+        ],
+      },
     ],
   },
   optimization: {
@@ -32,7 +42,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       inject: false,
-      template: "index.html",
+      template: "src/index.html",
       filename: "index.html",
     }),
     new WebpackMd5Hash(),

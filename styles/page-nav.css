@@ -1,0 +1,35 @@
+.page-nav {
+  display: none;
+}
+
+.page-nav__item,
+.page-nav__item-link {
+  font-family: roboto;
+  font-size: 18px;
+  line-height: 24px;
+  color: #b6bcbf;
+}
+
+.page-nav__item_seperator {
+  margin-right: 3px;
+}
+
+.page-nav__item-link:hover {
+  color: #1a1b22;
+}
+
+@media screen and (min-width: 768px) {
+  .page-nav {
+    display: flex;
+    list-style-type: none;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .page-nav {
+    margin-top: 40px;
+    padding-left: 104px;
+  }
+}
