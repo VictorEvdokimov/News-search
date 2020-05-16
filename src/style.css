@@ -1,0 +1,55 @@
+@import "../styles/normalize.css";
+@import "../fonts/roboto/fonts.css";
+@import "../styles/page.css";
+@import "../styles/background.css";
+@import "../styles/header-search.css";
+@import "../styles/header.css";
+@import "../styles/search.css";
+@import "../styles/result.css";
+@import "../styles/about-author.css";
+@import "../styles/footer.css";
+@import "../styles/about-site.css";
+@import "../styles/use-tech.css";
+@import "../styles/history-commit.css";
+@import "../styles/card-commit.css";
+@import "../styles/tabel.css";
+@import "../styles/page-nav.css";
+@import "../styles/request-info.css";
+
+/* section,
+article,
+nav,
+a,
+div,
+body,
+header,
+footer {
+  border: 0.5px solid #ff00007d;
+} */
+
+html {
+  line-height: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: roboto-slab, Tahoma;
+}
+
+input, button {
+  font-family: roboto, Arial;
+}
+
+.body {
+  min-width: 320px;
+  max-width: 1440px;
+  color: #1a1b22;
+  font-family: roboto, Arial;
+}
+
+a {
+  text-decoration: none;;
+}

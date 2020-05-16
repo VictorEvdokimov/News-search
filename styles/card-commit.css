@@ -1,0 +1,96 @@
+.link__card-commit {
+  color: #1a1b22;
+}
+
+.card-commit {
+  background-color: #ffffff;
+  width: 256px;
+  height: 264px;
+  padding: 16px;
+  border-radius: 16px;
+  margin: 0;
+}
+
+.card-commit:hover {
+  background-color: #ececec;
+}
+
+.card-commit__date {
+  font-family: roboto;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b6bcbf;
+}
+
+.card-commit__author {
+  margin-left: 12px;
+}
+
+.card-commit__author-avatar {
+  min-width: 48px;
+  height: 48px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1000px;
+}
+
+.card-commit__content_about-author {
+  margin-top: 8px;
+  display: flex;
+}
+
+.card_avatar1 {
+  background-image: url(../images/commit-avatar1.jpg);
+}
+
+.card_avatar2 {
+  background-image: url(../images/commit-avatar2.jpg);
+}
+
+.card_avatar3 {
+  background-image: url(../images/commit-avatar3.jpg);
+}
+
+.card_avatar4 {
+  background-image: url(../images/commit-avatar2.jpg);
+}
+
+.card-commit__author_name {
+  font-family: roboto-slab;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.card-commit__authot_email {
+  font-family: roboto;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.card-commit__comment {
+  font-family: roboto;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .card-commit {
+    width: 304px;
+    height: 242px;
+  }
+}
+ 
+@media screen and (min-width: 1400px) {
+  .card-commit__author_name {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}

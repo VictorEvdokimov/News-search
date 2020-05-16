@@ -18,8 +18,28 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
+        test: /\.(css)$/i,
+        use: [
+          MiniCssExtractPlugin.loader, 
+          "css-loader", 
+          "postcss-loader"
+        ],
+      },
+      {
+        test: /\.(png|jpe?g|gif|ico|svg)$/i,
+        use: [
+          "file-loader?name=./vendor/[name].[ext]",
+          {
+            loader: "image-webpack-loader",
+            options: {},
+          },
+        ],
+      },
+      {
+        test: /\.(woff|woff2|ttf|eot|otf)$/i,
+        use: [
+          "file-loader?name=./fonts/[name].[ext]",
+        ],
       },
     ],
   },
@@ -32,8 +52,18 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       inject: false,
-      template: "index.html",
+      template: "src/index.html",
       filename: "index.html",
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: "src/pages/aboutProject.html",
+      filename: "pages/aboutProject.html",
+    }),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: "src/pages/analytics.html",
+      filename: "pages/analytics.html",
     }),
     new WebpackMd5Hash(),
   ],
