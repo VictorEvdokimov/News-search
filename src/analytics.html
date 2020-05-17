@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../../images/favicon.png">
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>" />
+    <link rel="shortcut icon" href="<%= require('../images/favicon.png').default%>">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
     <title>Что в мире творится?</title>
     <meta name="description" content="Что в мире творится?">
   </head>
   <body class="body">
     <header class="header header_light">
-      <a class="header__title header__title_black" href="../index.html">NewsAnalyzer</a>
+      <a class="header__title header__title_black" href="index.html">NewsAnalyzer</a>
       <nav class="header-nav">
-        <div class="header-nav__content header-nav__content-top">
-          <a class="header-nav__link header-nav__link-top link_black" href="../index.html">Главная</a>
+        <div class="header-nav__content">
+          <a class="header-nav__link header-nav__link-top link_black" href="index.html">Главная</a>
         </div>
-        <div class="header-nav__content header-nav__content-about-project">
+        <div class="header-nav__content">
           <a class="header-nav__link header-nav__link-about-project link_black" href="aboutProject.html">О проекте</a>
         </div>
       </nav>
@@ -28,7 +28,7 @@
       <li class="page-nav__item">Аналитика</li>
     </menu>
     <section class="request-info">
-      <h2 class="request-info__title">Вы спросили:«Путешествия»</h2>
+      <h2 class="request-info__title">Вы спросили: «Путешествия»</h2>
       <p class="request-info__list newsWeek">Новостей за неделю: <span class="statistics">34 324</span></p>
       <p class="request-info__list repeat-req">Упоминаний в заголовках: <span class="statistics">235</span></p>
     </section>
@@ -109,16 +109,16 @@
     <footer class="footer">
       <dir class="footer__content">
         <dir class="footer__content-nav">
-          <a class="footer__content_link footer__nav_top" href="../index.html">Главная</a>
+          <a class="footer__content_link footer__nav_top" href="index.html">Главная</a>
           <a class="footer__content_link footer__nav_about-project" href="aboutProject.html">О проекте</a>
           <a class="footer__content_link footer__nav_yandex-practicum" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
         </dir>
         <dir class="footer__content_social-link">
           <a class="footer__content_social-link_github" href="https://github.com">
-            <img class="img__link-github icon-link" src="../../images/icon-github.png" alt="Github">
+            <img class="img__link-github icon-link" src="<%= require('../images/icon-github.png').default%>" alt="Github">
           </a>
           <a class="footer__content-social-link_facebook" href="https://facebook.com">
-            <img class="img__link-facebook icon-link" src="../../images/icon-facebook.png" alt="Facebook">
+            <img class="img__link-facebook icon-link" src="<%= require('../images/icon-facebook.png').default%>" alt="Facebook">
           </a>
         </dir>
       </dir>

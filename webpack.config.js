@@ -57,13 +57,13 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       inject: false,
-      template: "src/pages/aboutProject.html",
-      filename: "pages/aboutProject.html",
+      template: "src/aboutProject.html",
+      filename: "aboutProject.html",
     }),
     new HtmlWebpackPlugin({
       inject: false,
-      template: "src/pages/analytics.html",
-      filename: "pages/analytics.html",
+      template: "src/analytics.html",
+      filename: "analytics.html",
     }),
     new WebpackMd5Hash(),
   ],

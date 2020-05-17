@@ -40,9 +40,9 @@
 }
 
 .result-wait {
-  display: none;
+  /* display: none; */
 }
 
 .result-err {
-  display: none;
+  /* display: none; */
 }

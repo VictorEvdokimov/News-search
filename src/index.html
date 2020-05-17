@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../images/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="<%= require('../images/favicon.png').default%>">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
     <title>Что в мире творится?</title>
-    <meta name="description" content="Что в мире творится?" />
+    <meta name="description" content="Что в мире творится?">
   </head>
   <body class="body">
     <div class="background__header-search">
       <header class="header">
-        <a class="header__title header__title_light" href="index.html">NewsAnalyzer</a>
+        <a class="header__title title_light" href="index.html">NewsAnalyzer</a>
         <nav class="header-nav">
-          <div class="header-nav__content header-nav__content-top">
-            <a class="header-nav__link header-nav__link-top link_light" href="index.html">Главная</a>
+          <div class="header-nav__content">
+            <a class="header-nav__link link_top link_light" href="index.html">Главная</a>
           </div>
-          <div class="header-nav__content header-nav__content-about-project">
-            <a class="header-nav__link header-nav__link-about-project link_light" href="pages/aboutProject.html">О проекте</a>
+          <div class="header-nav__content">
+            <a class="header-nav__link link-about-project link_light" href="aboutProject.html">О проекте</a>
           </div>
         </nav>
       </header>
@@ -37,19 +37,19 @@
     </div>
     <section class="result">
       <div class="result-wait result_popup">
-        <img class="result-wait__pict_ellipse" src="../images/Ellipse.png" alt="Please wait"></img>
+        <img class="result-wait__pict_ellipse" src="<%= require('../images/Ellipse.png').default%>" alt="Please wait"></img>
         <p class="result-wait__content-comment">Идет поиск новостей...</p>
       </div>
       <div class="result-err result_popup">
-        <img class="result-err__pict_not-found" src="../images/not-found_v1.png" alt="Error"></img>
+        <img class="result-err__pict_not-found" src="<%= require('../images/not-found_v1.png').default%>" alt="Error"></img>
         <h4 class="result-err__title_err">Ничего не найдено</h4>
         <p class="result-err__content-comment">К сожалению по вашему запросу ничего не найдено.</p>
       </div>
       <div class="result-data">
         <div class="result-data__header">
           <h2 class="result-data__header_title">Результаты поиска</h2>
-          <a class="result-data__header_link" href="pages/analytics.html">Посмотреть аналитику
-            <img class="icon-arrow" src="../images/arrow.png">
+          <a class="result-data__header_link" href="analytics.html">Посмотреть аналитику
+            <img class="icon-arrow" src="<%= require('../images/arrow.png').default%>">
           </a>
         </div>
         <div class="result-data__content">
@@ -114,7 +114,7 @@
       </div>
     </section>
     <section class="about-author">
-      <img class="about-author__avatar" src="../images/avatar.jpg"></img>
+      <img class="about-author__avatar" src="<%= require('../images/avatar.jpg').default%>"></img>
       <article class="about-author__article">
         <h2 class="about-author__title">Об авторе</h2>
         <p class="about-author__description">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете. <br>Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам. Если хотите, оставьте свои контакты: email 
@@ -124,16 +124,16 @@
     <footer class="footer">
       <dir class="footer__content">
         <dir class="footer__content-nav">
-          <a class="footer__content_link footer__nav_top" href="#">Главная</a>
-          <a class="footer__content_link footer__nav_about-project" href="#">О проекте</a>
+          <a class="footer__content_link footer__nav_top" href="index.html">Главная</a>
+          <a class="footer__content_link footer__nav_about-project" href="aboutProject.html">О проекте</a>
           <a class="footer__content_link footer__nav_yandex-practicum" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
         </dir>
         <dir class="footer__content_social-link">
-          <a class="footer__content_social-link_github" href="#">
-            <img class="img__link-github icon-link" src="../images/icon-github.png" alt="Евдокимов Виктор">
+          <a class="footer__content_social-link_github" href="https://github.com">
+            <img class="img__link-github icon-link" src="<%= require('../images/icon-github.png').default%>" alt="Евдокимов Виктор">
           </a>
-          <a class="footer__content-social-link_facebook" href="#">
-            <img class="img__link-facebook icon-link" src="../images/icon-facebook.png" alt="Facebook">
+          <a class="footer__content-social-link_facebook" href="https://facebook.com">
+            <img class="img__link-facebook icon-link" src="<%= require('../images/icon-facebook.png').default%>" alt="Facebook">
           </a>
         </dir>
       </dir>

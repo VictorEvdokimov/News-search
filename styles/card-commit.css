@@ -26,33 +26,13 @@
   margin-left: 12px;
 }
 
-.card-commit__author-avatar {
-  min-width: 48px;
-  height: 48px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 1000px;
-}
-
 .card-commit__content_about-author {
   margin-top: 8px;
   display: flex;
 }
 
-.card_avatar1 {
-  background-image: url(../images/commit-avatar1.jpg);
-}
-
-.card_avatar2 {
-  background-image: url(../images/commit-avatar2.jpg);
-}
-
-.card_avatar3 {
-  background-image: url(../images/commit-avatar3.jpg);
-}
-
-.card_avatar4 {
-  background-image: url(../images/commit-avatar2.jpg);
+.card-commit__avatar_img {
+  border-radius: 1000px;
 }
 
 .card-commit__author_name {

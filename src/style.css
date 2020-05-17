@@ -29,6 +29,8 @@ footer {
 
 html {
   line-height: normal;
+  display: flex;
+  justify-content: center;
 }
 
 h1,
@@ -45,7 +47,7 @@ input, button {
 
 .body {
   min-width: 320px;
-  max-width: 1440px;
+  width: 1440px;
   color: #1a1b22;
   font-family: roboto, Arial;
 }
