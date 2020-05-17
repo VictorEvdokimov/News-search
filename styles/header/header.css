@@ -1,3 +1,7 @@
+@import "./__title/header__title.css";
+@import "./__nav/header__nav.css";
+@import "./__nav/__item/header__item.css";
+
 .header {
   height: 56px;
   color: #ffffff;
@@ -11,55 +15,9 @@
   box-shadow: inset 0px -1px 0px #d1d2d6;
 }
 
-.header__title {
-  font-family: roboto-slab, Tahoma;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  margin-left: 16px;
-  text-decoration: none;
-}
-
-.title_light {
-  color: #ffffff;
-}
-
-.title_black {
-  color: #1a1b22;
-}
-
-.header-nav {
-  display: flex;
-  margin-right: 14px;
-  height: 100%;
-}
-
-.header-nav__link {
-  color: #b6bcbf;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration: none;
-  margin-top: 16px;
-  display: block;
-  flex: 1;
-  border-bottom: 3px;
-}
 .link_light:hover {
   border-bottom: 3px solid #ffffff;
   color: #ffffff;
-}
-
-.link_black:hover {
-  border-bottom: 3px solid #1a1b22;
-  color: #1a1b22;
-}
-
-.header-nav__content {
-  display: flex;
-}
-
-.link_top {
-  margin-right: 13px;
 }
 
 @media screen and (min-width: 768px) {
@@ -67,39 +25,13 @@
     height: 64px;
   }
 
-  .header-nav {
-    margin-right: 42px;
-  }
-
-  .header-nav__link {
-    margin-top: 22px;
-    font-size: 18px;
-  }
-
   .header-nav__link-top {
     margin-right: 35px;
-  }
-
-  .header__title {
-    margin: 22px auto 18px 40px;
-    font-size: 20px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .header {
     height: 80px;
-  }
-
-  .header__title {
-    margin: 30px auto auto 104px;
-  }
-
-  .header-nav {
-    margin-right: 101px;
-  }
-
-  .header-nav__link {
-    margin-top: 30px;
   }
 }

@@ -1,0 +1,29 @@
+.header__title {
+  font-family: roboto-slab, Tahoma;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+.title_light {
+  color: #ffffff;
+}
+
+.title_black {
+  color: #1a1b22;
+}
+
+@media screen and (min-width: 768px) {
+  .header__title {
+    margin: 22px auto 18px 40px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header__title {
+    margin: 30px auto auto 104px;
+  }
+}
