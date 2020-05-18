@@ -1,0 +1,29 @@
+.about-author__img_avatar {
+  width: 272px;
+  height: 272px;
+  margin: 32px 24px 24px;
+  border-radius: 1000px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-author__img_avatar {
+    width: 232px;
+    height: 232px;
+    margin: 61px auto 0 40px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .about-author__img_avatar {
+    width: 30%;
+    height: 30%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-author__img_avatar {
+    width: 464px;
+    height: 464px;
+    margin: 80px auto 0 104px;
+  }
+}

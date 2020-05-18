@@ -1,0 +1,8 @@
+@import "./__list-cards/result__list-cards.css";
+@import "./__button/result__button_show-more.css";
+
+.result__data {
+  display: flex;
+  flex-direction: column;
+}
+

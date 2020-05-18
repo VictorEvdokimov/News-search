@@ -1,0 +1,6 @@
+@import "./__content/result__content.css";
+@import "./__popup/result__popup.css";
+
+.result {
+  background: #f5f6f7;
+}

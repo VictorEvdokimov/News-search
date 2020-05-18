@@ -1,0 +1,28 @@
+
+@import "./__title/seach__title.css";
+@import "./__annotation/search__annotation.css";
+
+@media screen and (min-width: 440px) {
+  .search__item {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .search__item {
+    margin: 40px auto 0 160px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .search__item {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .search__item {
+    margin: 80px auto auto 416px;
+  }
+}

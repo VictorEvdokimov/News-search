@@ -1,0 +1,15 @@
+
+.result__img_ellipse {
+  transform: rotate(-15deg);
+  animation: result-wait__gif 1s linear normal infinite;
+}
+
+@keyframes result-wait__gif {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

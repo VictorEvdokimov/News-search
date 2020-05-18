@@ -1,0 +1,28 @@
+.result__header-link {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 16px auto 36px 12px;
+  color: #1a1b22;
+}
+
+.result__header-link:hover {
+  background-color: #d9e4ee;
+}
+
+@media screen and (min-width: 768px) {
+  .result-data__content-cards {
+    grid-template-columns: auto auto auto;
+    margin: 0 40px;
+    grid-column-gap: 8px;
+  }
+
+  .result__header-link {
+    margin: 48px 47px 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .result__header-link {
+    margin: 94px 111px auto auto;
+  }
+}

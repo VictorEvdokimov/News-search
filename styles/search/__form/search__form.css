@@ -1,0 +1,28 @@
+@import "./__button/search__button.css";
+@import "./__input/search__input.css";
+
+.search__form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 440px) {
+  .search__form {
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .search__form {
+    margin: 24px auto 48px;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .search__form {
+    margin: 64px auto 80px;
+  }
+}

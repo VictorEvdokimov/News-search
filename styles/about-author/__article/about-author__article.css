@@ -1,0 +1,27 @@
+@import "./__title/about-author__title.css";
+@import "./__description/about-author__description.css";
+
+.about-author__article {
+  display: flex;
+  flex-direction: column;
+  margin: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-author__article {
+    margin: 40px 40px 0 32px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .about-author__article {
+    margin-top: 90px;
+    margin-right: 80px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-author__article {
+    margin: 132px 216px 0 56px;
+  }
+}

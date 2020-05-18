@@ -1,0 +1,14 @@
+@import "./__date-news/result__date-news.css";
+@import "./__card-title/result__card-title.css";
+@import "./__card-paragraph/result__card-paragraph.css";
+@import "./__card-link_site/result__card-link_site.css";
+
+.result__about-card {
+  margin: 15px 16px 16px;
+}
+
+@media screen and (min-width: 1440px) {
+  .result__about-card {
+    margin: 20px 24px 24px;
+  }
+}

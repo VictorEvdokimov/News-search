@@ -1,0 +1,29 @@
+/* @import "./__header/result__header.css"; */
+@import "./__header-title/result__header-title.css";
+@import "./__header-link/result__header-link.css";
+@import "./__icon-arrow/result__icon-arrow.css";
+
+.result__header {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 375px) {
+  .result__header {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .result__header {
+    flex-direction: row;
+    margin-bottom: 31px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .result__header {
+    margin-bottom: 64px;
+  }
+}

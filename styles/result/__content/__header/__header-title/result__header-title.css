@@ -1,0 +1,20 @@
+.result__header-title {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 34px;
+  margin: 34px 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .result__header-title {
+    margin: 40px auto 0 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .result__header-title {
+    margin: 80px auto 0 104px;
+    font-size: 40px;
+    line-height: 42px;
+  }
+}

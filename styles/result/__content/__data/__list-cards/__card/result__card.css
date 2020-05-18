@@ -1,0 +1,32 @@
+@import "./__card_img/result__card_img.css";
+@import "./__about-card/result__about-card.css";
+
+.result__card {
+  min-height: 446px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.img_card1 {
+  background: url(/images/image_08.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img_card2 {
+  background: url(/images/image_06.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img_card3 {
+  background: url(/images/image_07.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .result__card {
+    min-height: auto;
+  }
+}

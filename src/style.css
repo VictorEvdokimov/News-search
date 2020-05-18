@@ -1,14 +1,17 @@
 @import "../styles/header/header.css";
+@import "../styles/search/search.css";
+@import "../styles/result/result.css";
+@import "../styles/about-author/about-author.css";
 
 @import "../styles/normalize.css";
 @import "../fonts/roboto/fonts.css";
 @import "../styles/page.css";
 @import "../styles/background.css";
-@import "../styles/header-search.css";
+/* @import "../styles/header-search.css"; */
 
-@import "../styles/search.css";
-@import "../styles/result.css";
-@import "../styles/about-author.css";
+
+
+
 @import "../styles/footer.css";
 @import "../styles/about-site.css";
 @import "../styles/use-tech.css";
