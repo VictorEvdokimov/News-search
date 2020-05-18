@@ -3,19 +3,15 @@
 @import "../styles/result/result.css";
 @import "../styles/about-author/about-author.css";
 @import "../styles/footer/footer.css";
+@import "../styles/about-site/about-site.css";
+@import "../styles/use-tech/use-tech.css";
+
 
 @import "../styles/normalize.css";
 @import "../fonts/roboto/fonts.css";
 @import "../styles/page.css";
 @import "../styles/background.css";
 /* @import "../styles/header-search.css"; */
-
-
-
-
-
-@import "../styles/about-site.css";
-@import "../styles/use-tech.css";
 @import "../styles/history-commit.css";
 @import "../styles/card-commit.css";
 @import "../styles/tabel.css";

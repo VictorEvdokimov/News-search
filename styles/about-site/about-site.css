@@ -1,0 +1,19 @@
+@import "./__title/about-site__title.css";
+@import "./__description/about-site__description.css";
+
+.about-site {
+  margin: 16px 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .about-site {
+    margin: 29px 40px 0;
+    max-width: 817px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-site {
+    margin: 80px 104px 94px;
+  }
+}
