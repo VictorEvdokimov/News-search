@@ -2,6 +2,7 @@
 @import "../styles/search/search.css";
 @import "../styles/result/result.css";
 @import "../styles/about-author/about-author.css";
+@import "../styles/footer/footer.css";
 
 @import "../styles/normalize.css";
 @import "../fonts/roboto/fonts.css";
@@ -12,7 +13,7 @@
 
 
 
-@import "../styles/footer.css";
+
 @import "../styles/about-site.css";
 @import "../styles/use-tech.css";
 @import "../styles/history-commit.css";

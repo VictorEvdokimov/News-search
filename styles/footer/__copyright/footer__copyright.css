@@ -1,0 +1,20 @@
+.footer__copyright {
+  font-family: roboto, Tahoma;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #b6bcbf;
+  margin: 29px auto 22px 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__copyright {
+    margin: auto auto auto 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__copyright {
+    margin-left: 0px;
+  }
+}
