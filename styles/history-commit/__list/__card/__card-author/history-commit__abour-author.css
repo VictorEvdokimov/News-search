@@ -1,0 +1,7 @@
+@import "./__avatar/history-commit__author-avatar.css";
+@import "./__author/history-commit__author.css";
+
+.history-commit__abour-author {
+  margin-top: 8px;
+  display: flex;
+}

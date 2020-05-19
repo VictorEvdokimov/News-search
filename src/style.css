@@ -5,6 +5,8 @@
 @import "../styles/footer/footer.css";
 @import "../styles/about-site/about-site.css";
 @import "../styles/use-tech/use-tech.css";
+@import "../styles/history-commit/history-commit.css";
+
 
 
 @import "../styles/normalize.css";
@@ -12,8 +14,8 @@
 @import "../styles/page.css";
 @import "../styles/background.css";
 /* @import "../styles/header-search.css"; */
-@import "../styles/history-commit.css";
-@import "../styles/card-commit.css";
+
+
 @import "../styles/tabel.css";
 @import "../styles/page-nav.css";
 @import "../styles/request-info.css";

@@ -1,0 +1,21 @@
+.history-commit__title {
+  max-width: 150px;
+  margin: 0;
+  font-family: roboto-slab;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+@media screen and (min-width: 375px) {
+  .history-commit__title {
+    max-width: 48%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .history-commit__title {
+    font-size: 40px;
+    line-height: 46px;
+  }
+}

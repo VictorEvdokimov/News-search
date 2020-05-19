@@ -1,41 +1,11 @@
+@import "./__header/history-commit__header.css";
+@import "./__list/history-commit__list.css";
+
 .history-commit {
   background-color: #f5f6f7;
   display: flex;
   flex-direction: column;
   padding: 32px 16px;
-}
-
-.history-commit__header {
-  display: flex;
-  justify-content: space-between;
-}
-.history-commit__title {
-  max-width: 150px;
-  margin: 0;
-  font-family: roboto-slab;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 40px;
-}
-
-.history-commit__header-content {
-  display: none;
-}
-
-.link_github {
-  font-family: roboto;
-  font-size: 18px;
-  line-height: 24px;
-  color: #1a1b22;
-}
-
-.next-commit__arrow {
-  width: 8px;
-  height: 13px;
-}
-
-.history-commit__content-cards {
-  display: flex;
 }
 
 .history-commit__arrow {
@@ -47,12 +17,12 @@
 
 .arrow_back {
   display: block;
-  background-image: url(../images/slider-control-back.png);
+  background-image: url(../../images/slider-control-back.png);
 }
 
 .arrow_next {
   display: block;
-  background-image: url(../images/slider-control-next.png);
+  background-image: url(../../images/slider-control-next.png);
 }
 
 .history-commit__content_link-arrows {
@@ -105,40 +75,13 @@
   padding: 0;
 }
 
-@media screen and (min-width: 375px) {
-  .history-commit__title {
-    max-width: 48%;
-  }
-
-  .history-commit__header {
-    margin-left: 5%;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .history-commit {
     padding-bottom: 40px;
   }
 
-  .history-commit__header {
-    padding: 8px 24px 0;
-  }
-
-  .history-commit__header-content {
-    display: flex;
-    margin-top: 8px;
-  }
-
-  .link_github {
-    margin-right: 10px;
-  }
-
   .history-commit__link_next-commit {
     margin-top: 6px;
-  }
-
-  .history-commit__content-cards {
-    margin-top: 22px;
   }
 
   .history-commit__ellipses {
@@ -151,28 +94,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .history-commit__header {
-    padding-top: 13px;
-    padding-left: 87px;
-  }
-
-  .history-commit__header-content {
-    flex-direction: row;
-    align-items: flex-start;
-    margin-top: 13px;
-    margin-right: 72px;
-  }
-
-  .history-commit__title {
-    font-size: 40px;
-    line-height: 46px;
-  }
-
-  .history-commit__link_github {
-    margin-right: 8px;
-    letter-spacing: 0.5px;
-  }
-
   .history-commit__ellipses {
     margin-top: 8px;
   }
@@ -183,9 +104,5 @@
 
   .history-commit__link_next-commit {
     margin-top: 6px;
-  }
-
-  .history-commit__content-cards {
-    margin-top: 65px;
   }
 }
