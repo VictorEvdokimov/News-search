@@ -1,0 +1,19 @@
+.request-info__title {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 34px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .request-info__title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .request-info__title {
+    font-size: 40px;
+    line-height: 46px;
+  }
+}

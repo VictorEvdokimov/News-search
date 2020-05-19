@@ -1,0 +1,24 @@
+.history-commit__content_button {
+  display: flex;
+  justify-content: center;
+}
+
+.history-commit__button {
+  margin: 24px 0 0;
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  height: 56px;
+  width: 286px;
+  border-radius: 80px;
+  background-color: #ffffff;
+  border: 1px solid #1a1b22;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .history-commit__button {
+    display: none;
+  }
+}

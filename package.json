@@ -1,6 +1,6 @@
 {
   "name": "News-search",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "News search and popularity analysis",
   "main": "index.js",
   "scripts": {

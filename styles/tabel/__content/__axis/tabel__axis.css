@@ -1,0 +1,14 @@
+@import "./__axis_item/tabel__axis_item.css";
+@import "./__date/tabel__date.css";
+
+.tabel__axis {
+  border-bottom: 1px solid #1a1b22;
+  padding-bottom: 8px;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .tabel__axis {
+    margin-top: 52px;
+  }
+}

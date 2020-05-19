@@ -1,0 +1,29 @@
+.tabel__scale {
+  display: flex;
+  display: none;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b6bcbf;
+  justify-content: space-between;
+}
+
+.tabel__scale_percent {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .tabel__scale {
+    display: flex;
+    margin: 16px auto 0 117px;
+  }
+
+  .scale_battom {
+    margin-top: -12px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .tabel__scale {
+    margin-left: 105px;
+  }
+}

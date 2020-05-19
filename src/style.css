@@ -6,30 +6,13 @@
 @import "../styles/about-site/about-site.css";
 @import "../styles/use-tech/use-tech.css";
 @import "../styles/history-commit/history-commit.css";
-
-
-
+@import "../styles/crumbs/crumbs.css";
+@import "../styles/request-info/request-info.css";
+@import "../styles/tabel/tabel.css";
+@import "../styles/background/index_background.css";
 @import "../styles/normalize.css";
 @import "../fonts/roboto/fonts.css";
-@import "../styles/page.css";
-@import "../styles/background.css";
-/* @import "../styles/header-search.css"; */
 
-
-@import "../styles/tabel.css";
-@import "../styles/page-nav.css";
-@import "../styles/request-info.css";
-
-/* section,
-article,
-nav,
-a,
-div,
-body,
-header,
-footer {
-  border: 0.5px solid #ff00007d;
-} */
 
 html {
   line-height: normal;

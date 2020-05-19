@@ -1,0 +1,5 @@
+@import "./__axis_style/tabel__axis_style.css";
+
+.tabel__axis_item {
+  display: flex;
+}
