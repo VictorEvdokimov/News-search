@@ -1,11 +1,11 @@
 .background_header-search {
-  background-image: url("../images/background.png");
+  background-image: url("../../images/background.png");
   background-position: center;
   background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
   .background_header-search {
-    background-image: url("../images/background-iPad.jpg");
+    background-image: url("../../images/background-iPad.jpg");
   }
 }

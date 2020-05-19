@@ -1,18 +1,8 @@
+@import "./__title/request-info__title.css";
+@import "./__statistics/request-info__statistics.css";
+
 .request-info {
   padding: 16px 16px 24px;
-}
-
-.request-info__title {
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 34px;
-  margin: 0;
-}
-
-.request-info__list {
-  font-size: 18px;
-  line-height: 24px;
-  margin: 0;
 }
 
 .newsWeek {
@@ -23,7 +13,7 @@
   margin-top: 4px;
 }
 
-.statistics {
+.request-info__total {
   font-weight: bold;
 }
 
@@ -34,10 +24,6 @@
     padding-bottom: 40px;
   }
 
-  .request-info__title {
-    font-size: 32px;
-  }
-
   .newsWeek {
     margin-top: 23px;
   }
@@ -46,10 +32,5 @@
 @media screen and (min-width: 1440px) {
   .request-info {
     padding: 33px 33px 80px 104px;
-  }
-
-  .request-info__title {
-    font-size: 40px;
-    line-height: 46px;
   }
 }

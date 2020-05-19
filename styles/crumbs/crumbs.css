@@ -1,25 +1,25 @@
-.page-nav {
+.crumbs {
   display: none;
 }
 
-.page-nav__item,
-.page-nav__item-link {
+.crumbs__item,
+.crumbs__link {
   font-family: roboto;
   font-size: 18px;
   line-height: 24px;
   color: #b6bcbf;
 }
 
-.page-nav__item_seperator {
+.crumbs__seperator {
   margin-right: 3px;
 }
 
-.page-nav__item-link:hover {
+.crumbs__link:hover {
   color: #1a1b22;
 }
 
 @media screen and (min-width: 768px) {
-  .page-nav {
+  .crumbs {
     display: flex;
     list-style-type: none;
     margin-top: 32px;
@@ -28,7 +28,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .page-nav {
+  .crumbs {
     margin-top: 40px;
     padding-left: 104px;
   }

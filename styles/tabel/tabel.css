@@ -1,0 +1,19 @@
+@import "./__title/tabet__title.css";
+@import "./__content/tabel__content.css";
+
+.tabel {
+  padding: 24px 16px 24px;
+  background: #f5f6f7;
+}
+
+@media screen and (min-width: 768px) {
+  .tabel {
+    padding: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .tabel {
+    padding: 80px 104px;
+  }
+}

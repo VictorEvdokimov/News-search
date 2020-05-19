@@ -3,6 +3,7 @@
 .history-commit__list {
   display: flex;
   margin-top: 16px;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {

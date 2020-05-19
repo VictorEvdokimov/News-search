@@ -1,5 +1,8 @@
 @import "./__header/history-commit__header.css";
 @import "./__list/history-commit__list.css";
+@import "./__slider-control/history-commit__slider-control.css";
+@import "./__controller/history-commit__controller.css";
+@import "./__button/history-commit__button.css";
 
 .history-commit {
   background-color: #f5f6f7;
@@ -8,101 +11,8 @@
   padding: 32px 16px;
 }
 
-.history-commit__arrow {
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
-  background-position: center;
-}
-
-.arrow_back {
-  display: block;
-  background-image: url(../../images/slider-control-back.png);
-}
-
-.arrow_next {
-  display: block;
-  background-image: url(../../images/slider-control-next.png);
-}
-
-.history-commit__content_link-arrows {
-  display: none;
-  justify-content: space-between;
-  position: relative;
-  bottom: 160px;
-}
-
-.history-commit__ellipses {
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-}
-
-.ellipse-scroll1 {
-  margin: 0 4px;
-  width: 8px;
-  height: 8px;
-  background-color: #1a1b22;
-  border: 1px solid #1a1b22;
-  border-radius: 8px;
-}
-
-.ellipse-scroll {
-  margin: 0 4px;
-  width: 8px;
-  height: 8px;
-  background-color: #d1d2d6;
-  border: 1px solid #d1d2d6;
-  border-radius: 8px;
-}
-
-.ellipse-scroll:hover {
-  border: 1px solid black;
-  cursor: pointer;
-}
-
-.history-commit__button {
-  margin: 24px 0 0;
-  font-family: roboto;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 24px;
-  height: 56px;
-  width: auto;
-  border-radius: 80px;
-  background-color: #ffffff;
-  border: 1px solid #1a1b22;
-  padding: 0;
-}
-
 @media screen and (min-width: 768px) {
   .history-commit {
     padding-bottom: 40px;
-  }
-
-  .history-commit__link_next-commit {
-    margin-top: 6px;
-  }
-
-  .history-commit__ellipses {
-    margin-top: 32px;
-  }
-
-  .history-commit__button {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .history-commit__ellipses {
-    margin-top: 8px;
-  }
-
-  .history-commit__content_link-arrows {
-    display: flex;
-  }
-
-  .history-commit__link_next-commit {
-    margin-top: 6px;
   }
 }

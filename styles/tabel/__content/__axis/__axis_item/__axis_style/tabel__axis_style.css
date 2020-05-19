@@ -1,0 +1,23 @@
+.tabel__axis_style {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: #b6bcbf;
+  margin: 0;
+}
+
+.axis__horizontal {
+  margin-left: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .axis__horizontal {
+    margin-left: 84px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .axis__horizontal {
+    margin-left: 72px;
+  }
+}

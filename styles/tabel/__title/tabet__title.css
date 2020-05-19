@@ -1,0 +1,12 @@
+.tabel__title {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .tabel__title {
+    font-size: 26px;
+  }
+}
