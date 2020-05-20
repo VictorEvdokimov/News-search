@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 769px) {
   .result__card_img {
-    min-width: 20vw;
+    min-width: 100%;
     min-height: 20vw;
   }
 }

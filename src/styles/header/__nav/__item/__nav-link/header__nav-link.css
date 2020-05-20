@@ -9,12 +9,12 @@
   border-bottom: 3px;
 }
 
-.link_black:hover {
+.header__link_black:hover {
   border-bottom: 3px solid #1a1b22;
   color: #1a1b22;
 }
 
-.link_top {
+.link-top {
   margin-right: 13px;
 }
 

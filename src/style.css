@@ -1,17 +1,17 @@
-@import "../styles/header/header.css";
-@import "../styles/search/search.css";
-@import "../styles/result/result.css";
-@import "../styles/about-author/about-author.css";
-@import "../styles/footer/footer.css";
-@import "../styles/about-site/about-site.css";
-@import "../styles/use-tech/use-tech.css";
-@import "../styles/history-commit/history-commit.css";
-@import "../styles/crumbs/crumbs.css";
-@import "../styles/request-info/request-info.css";
-@import "../styles/tabel/tabel.css";
-@import "../styles/background/index_background.css";
-@import "../styles/normalize.css";
-@import "../fonts/roboto/fonts.css";
+@import "./styles/header/header.css";
+@import "./styles/search/search.css";
+@import "./styles/result/result.css";
+@import "./styles/about-author/about-author.css";
+@import "./styles/footer/footer.css";
+@import "./styles/about-site/about-site.css";
+@import "./styles/use-tech/use-tech.css";
+@import "./styles/history-commit/history-commit.css";
+@import "./styles/crumbs/crumbs.css";
+@import "./styles/request-info/request-info.css";
+@import "./styles/tabel/tabel.css";
+@import "./styles/background/index_background.css";
+@import "./styles/normalize.css";
+@import "./fonts/roboto/fonts.css";
 
 
 html {
@@ -26,6 +26,12 @@ h3,
 h4,
 a {
   font-family: roboto-slab, Tahoma;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 input, button {

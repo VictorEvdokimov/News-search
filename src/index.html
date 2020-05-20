@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="<%= require('../images/favicon.png').default%>">
+    <link rel="shortcut icon" href="<%= require('./images/favicon.png').default%>">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
     <title>Что в мире творится?</title>
     <meta name="description" content="Что в мире творится?">
@@ -11,14 +11,16 @@
   <body class="body">
     <div class="background_header-search">
       <header class="header">
-        <a class="header__title title_light" href="index.html">NewsAnalyzer</a>
+        <a class="header__title header__title_light" href="index.html">NewsAnalyzer</a>
         <nav class="header__nav">
-          <div class="header__item">
-            <a class="header__nav-link link_top link_light" href="index.html">Главная</a>
-          </div>
-          <div class="header__item">
-            <a class="header__nav-link link-about-project link_light" href="aboutProject.html">О проекте</a>
-          </div>
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__nav-link link-top header__link_light" href="index.html">Главная</a>
+            </li>
+            <li class="header__item">
+              <a class="header__nav-link link-about-project header__link_light" href="aboutProject.html">О проекте</a>
+            </li>
+          </ul>
         </nav>
       </header>
       <section class="search">
@@ -30,18 +32,18 @@
           </p>
         </div>
         <form class="search__form">
-          <input class="search__input" placeholder="Политика"/>
+          <input class="search__input" type="text" placeholder="Политика" pattern="[A-Za-zА-Яа-я]+" required>
           <button class="search__button">Искать</button>
         </form>
       </section>
     </div>
     <section class="result">
       <div class="result__popup result__popup_wait">
-        <img class="result__img_ellipse" src="<%= require('../images/Ellipse.png').default%>" alt="Please wait"></img>
+        <img class="result__img_ellipse" src="<%= require('./images/Ellipse.png').default%>" alt="Please wait">
         <p class="result__comment-wait">Идет поиск новостей...</p>
       </div>
       <div class="result__popup result__popup_err">
-        <img class="result__img_not-found" src="<%= require('../images/not-found_v1.png').default%>" alt="Error"></img>
+        <img class="result__img_not-found" src="<%= require('./images/not-found_v1.png').default%>" alt="Error">
         <h4 class="result__title-err">Ничего не найдено</h4>
         <p class="result__comment-err">К сожалению по вашему запросу ничего не найдено.</p>
       </div>
@@ -49,60 +51,60 @@
         <div class="result__header">
           <h2 class="result__header-title">Результаты поиска</h2>
           <a class="result__header-link" href="analytics.html">Посмотреть аналитику
-            <img class="result__icon-arrow" src="<%= require('../images/arrow.png').default%>">
+            <img class="result__icon-arrow" src="<%= require('./images/arrow.png').default%>" alt=">">
           </a>
         </div>
         <div class="result__data">
           <div class="result__list-cards">
             <div class="result__card">
-              <div class="result__card_img img_card1"></div>
+              <img class="result__card_img" src="<%= require('./images/image_06.jpg').default%>">
               <div class="result__about-card">
-                <time class="result__date-news">2 августа, 2019</time>
+                <time datetime="2019-08-02" class="result__date-news">2 августа, 2019</time>
                 <h3 class="result__card-title">Национальное достояние – парки</h3>
                 <p class="result__card-paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
                 <a class="result__card-link_site" href="https://lenta.ru/">ЛЕНТА.РУ</a>
               </div>
             </div>
             <div class="result__card">
-              <div class="result__card_img img_card2"></div>
+              <img class="result__card_img" src="<%= require('./images/image_07.jpg').default%>">
               <div class="result__about-card">
-                <time class="result__date-news">2 августа, 2019</time>
+                <time datetime="2019-08-02" class="result__date-news">2 августа, 2019</time>
                 <h3 class="result__card-title">Национальное достояние – парки</h3>
                 <p class="result__card-paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</p>
                 <a class="result__card-link_site" href="https://meduza.io/">МЕДУЗА</a>
               </div>
             </div>
             <div class="result__card">
-              <div class="result__card_img img_card3"></div>
+              <img class="result__card_img" src="<%= require('./images/image_08.jpg').default%>">
               <div class="result__about-card">
-                <time class="result__date-news">2 августа, 2019</time>
+                <time datetime="2019-08-02" class="result__date-news">2 августа, 2019</time>
                 <h3 class="result__card-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
                 <p class="result__card-paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</p>
                 <a class="result__card-link_site" href="https://zona.media/">МЕДИАЗОНА</a>
               </div>
             </div>
             <div class="result__card">
-              <div class="result__card_img img_card1"></div>
+              <div class="result__card_img"></div>
               <div class="result__about-card">
-                <time class="result__date-news">2 августа, 2019</time>
+                <time datetime="2019-08-02" class="result__date-news">2 августа, 2019</time>
                 <h3 class="result__card-title">Национальное достояние – парки</h3>
                 <p class="result__card-paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</p>
                 <a class="result__card-link_site" href="https://lenta.ru/">ЛЕНТА.РУ</a>
               </div>
             </div>
             <div class="result__card">
-              <div class="result__card_img img_card2"></div>
+              <div class="result__card_img"></div>
               <div class="result__about-card">
-                <time class="result__date-news">2 августа, 2019</time>
+                <time datetime="2019-08-02" class="result__date-news">2 августа, 2019</time>
                 <h3 class="result__card-title">Национальное достояние – парки</h3>
                 <p class="result__card-paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</p>
                 <a class="result__card-link_site" href="https://meduza.io/">МЕДУЗА</a>
               </div>
             </div>
             <div class="result__card">
-              <div class="result__card_img img_card3"></div>
+              <div class="result__card_img"></div>
               <div class="result__about-card">
-                <time class="result__date-news">2 августа, 2019</time>
+                <time datetime="2019-08-02" class="result__date-news">2 августа, 2019</time>
                 <h3 class="result__card-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
                 <p class="result__card-paragraph">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</p>
                 <a class="result__card-link_site" href="https://zona.media/">МЕДИАЗОНА</a>
@@ -113,30 +115,30 @@
         </div>
       </div>
     </section>
-    <section class="about-author">
-      <img class="about-author__img_avatar" src="<%= require('../images/avatar.jpg').default%>"></img>
+    <div class="about-author">
+      <img class="about-author__img_avatar" src="<%= require('./images/avatar.jpg').default%>" alt="avatar">
       <article class="about-author__article">
         <h2 class="about-author__title">Об авторе</h2>
         <p class="about-author__description">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете. <br>Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам. Если хотите, оставьте свои контакты: email 
           и телефон. Так заказчики смогут с вами связаться.</p>
       </article> 
-    </section>
+    </div>
     <footer class="footer">
-      <dir class="footer__content">
-        <dir class="footer__nav">
-          <a class="footer__link link_top" href="index.html">Главная</a>
-          <a class="footer__link link_about-project" href="aboutProject.html">О проекте</a>
-          <a class="footer__link link_yandex-practicum" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
-        </dir>
-        <dir class="footer__item-link">
+      <div class="footer__content">
+        <div class="footer__nav">
+          <a class="footer__link footer__link_top" href="index.html">Главная</a>
+          <a class="footer__link footer__link_about-project" href="aboutProject.html">О проекте</a>
+          <a class="footer__link footer__link_yandex-practicum" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
+        </div>
+        <div class="footer__item-link">
           <a class="footer__link_social_github" href="https://github.com">
-            <img class="footer__img_github icon_social" src="<%= require('../images/icon-github.png').default%>" alt="Евдокимов Виктор">
+            <img class="footer__img_github footer__icon_social" src="<%= require('./images/icon-github.png').default%>" alt="Евдокимов Виктор">
           </a>
           <a class="footer__link_social_facebook" href="https://facebook.com">
-            <img class="footer__img_facebook icon_social" src="<%= require('../images/icon-facebook.png').default%>" alt="Facebook">
+            <img class="footer__img_facebook footer__icon_social" src="<%= require('./images/icon-facebook.png').default%>" alt="Facebook">
           </a>
-        </dir>
-      </dir>
+        </div>
+      </div>
       <div class="footer__copyright">© 2019. Виктор Евдокимов</div>
     </footer>
   </body>

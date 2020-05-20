@@ -16,7 +16,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .link_about-project {
+  .footer__link_about-project {
     margin: auto 40px;
   }
 }

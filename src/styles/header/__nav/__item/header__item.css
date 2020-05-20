@@ -3,3 +3,7 @@
 .header__item {
   display: flex;
 }
+
+.header__list {
+  display: flex;
+}

@@ -7,11 +7,11 @@
   text-decoration: none;
 }
 
-.title_light {
+.header__title_light {
   color: #ffffff;
 }
 
-.title_black {
+.header__title_black {
   color: #1a1b22;
 }
 

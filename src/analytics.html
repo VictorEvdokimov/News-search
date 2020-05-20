@@ -3,21 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="<%= require('../images/favicon.png').default%>">
+    <link rel="shortcut icon" href="<%= require('./images/favicon.png').default%>">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
     <title>Что в мире творится?</title>
     <meta name="description" content="Что в мире творится?">
   </head>
   <body class="body">
     <header class="header header_light">
-      <a class="header__title title_black" href="index.html">NewsAnalyzer</a>
+      <a class="header__title header__title_black" href="index.html">NewsAnalyzer</a>
       <nav class="header__nav">
-        <div class="header__item">
-          <a class="header__nav-link link_top link_black" href="index.html">Главная</a>
-        </div>
-        <div class="header__item">
-          <a class="header__nav-link link-about-project link_black" href="aboutProject.html">О проекте</a>
-        </div>
+        <ul class="header__list">
+          <div class="header__item">
+            <a class="header__nav-link link-top header__link_black" href="index.html">Главная</a>
+          </div>
+          <div class="header__item">
+            <a class="header__nav-link link-about-project header__link_black" href="aboutProject.html">О проекте</a>
+          </div>
+        </ul>
       </nav>
     </header>
     <menu class="crumbs">
@@ -42,13 +44,13 @@
           </div>
           <p class="tabel__date">(АВГУСТ)</p>
         </div>
-        <div class="tabel__scale">
-          <p class="tabel__scale_percent">0</p>
-          <p class="tabel__scale_percent">25</p>
-          <p class="tabel__scale_percent">50</p>
-          <p class="tabel__scale_percent">75</p>
-          <p class="tabel__scale_percent">100</p>
-        </div>
+        <ul class="tabel__scale">
+          <li class="tabel__scale_percent">0</li>
+          <li class="tabel__scale_percent">25</li>
+          <li class="tabel__scale_percent">50</li>
+          <li class="tabel__scale_percent">75</li>
+          <li class="tabel__scale_percent">100</li>
+        </ul>
         <div class="tabel__chart">
           <dir class="tabel__chart-weekdays">
             <p class="tabel__chart-day">
@@ -97,28 +99,28 @@
             </div>
           </div>
         </div>
-        <div class="tabel__scale scale_battom">
-          <p class="tabel__scale_percent">0</p>
-          <p class="tabel__scale_percent">25</p>
-          <p class="tabel__scale_percent">50</p>
-          <p class="tabel__scale_percent">75</p>
-          <p class="tabel__scale_percent">100</p>
-        </div>
+        <ul class="tabel__scale scale_battom">
+          <li class="tabel__scale_percent">0</li>
+          <li class="tabel__scale_percent">25</li>
+          <li class="tabel__scale_percent">50</li>
+          <li class="tabel__scale_percent">75</li>
+          <li class="tabel__scale_percent">100</li>
+        </ul>
       </div>
     </section>
     <footer class="footer">
       <dir class="footer__content">
         <dir class="footer__nav">
-          <a class="footer__link link_top" href="index.html">Главная</a>
-          <a class="footer__link link_about-project" href="aboutProject.html">О проекте</a>
-          <a class="footer__link link_yandex-practicum" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
+          <a class="footer__link footer__link_top" href="index.html">Главная</a>
+          <a class="footer__link footer__link_about-project" href="aboutProject.html">О проекте</a>
+          <a class="footer__link footer__link_yandex-practicum" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
         </dir>
         <dir class="footer__item-link">
           <a class="footer__link_social_github" href="https://github.com">
-            <img class="footer__img_github icon_social" src="<%= require('../images/icon-github.png').default%>" alt="Github">
+            <img class="footer__img_github footer__icon_social" src="<%= require('./images/icon-github.png').default%>" alt="Github">
           </a>
           <a class="footer__link_social_facebook" href="https://facebook.com">
-            <img class="footer__img_facebook icon_social" src="<%= require('../images/icon-facebook.png').default%>" alt="Facebook">
+            <img class="footer__img_facebook footer__icon_social" src="<%= require('./images/icon-facebook.png').default%>" alt="Facebook">
           </a>
         </dir>
       </dir>

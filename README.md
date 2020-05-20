@@ -1,2 +1,10 @@
 # News-search
-News search and popularity analysis
+Дипломный проект Яндекс.Практикум. Проект подразумевает поиск по российским новостям используя сервис API — https://newsapi.org. В данном проекте исполюзуются HTML, CSS, JavaScript, Webpack.
+
+Настроена поддержка браузеров: Google Chrome,
+Google Chrome Mobile, Yandex Browser, Firefox, Safari, Microsoft Edge 15+.
+Для локального запуска необходимо установить Node.js. Запуск осуществляется командой:
+
+`npm run dev`
+
+Планируется подключение к поисковой системе и к git ропозиторию, для получения информации о коммитах.
