@@ -1,22 +1,24 @@
-.footer__link {
+.footer__link-nav {
   font-family: sourcesanspro-regular;
-  font-size: 18px;
-  line-height: 48px;
-  color: #1a1b22;
 }
 
-.footer__link:hover {
+.footer__item {
+  font-size: 18px;
+  line-height: 48px;
+}
+
+.footer__item:hover {
   background: #ebebeb;
 }
 
 @media screen and (min-width: 768px) {
-  .footer__link {
+  .footer__item {
     line-height: 24px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .footer__link_about-project {
+  .footer__link-nav_about-project {
     margin: auto 40px;
   }
 }

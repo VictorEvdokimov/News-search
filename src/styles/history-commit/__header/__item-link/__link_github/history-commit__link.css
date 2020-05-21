@@ -1,8 +1,12 @@
-.link_github {
+.history-commit__link_github {
   font-family: roboto;
   font-size: 18px;
   line-height: 24px;
   color: #1a1b22;
+}
+
+.history-commit__link_github:hover {
+  background-color: #d4d5d6;
 }
 
 .history-commit__arrow-link {
@@ -11,7 +15,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .link_github {
+  .history-commit__link_github {
     margin-right: 10px;
   }
 }

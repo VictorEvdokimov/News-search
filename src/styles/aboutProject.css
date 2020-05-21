@@ -1,0 +1,9 @@
+@import "header/header.css";
+@import "footer/footer.css";
+@import "about-author/about-author.css";
+@import "about-site/about-site.css";
+@import "use-tech/use-tech.css";
+@import "history-commit/history-commit.css";
+@import "normalize.css";
+@import "fonts/fonts.css";
+@import "../styles/style.css";

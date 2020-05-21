@@ -1,4 +1,4 @@
-.header__nav-link {
+.header__link_nav {
   color: #b6bcbf;
   font-size: 16px;
   line-height: 24px;
@@ -14,19 +14,29 @@
   color: #1a1b22;
 }
 
-.link-top {
+.header__link_light:hover {
+  border-bottom: 3px solid #ffffff;
+  color: #ffffff;
+}
+
+
+.header__link_top {
   margin-right: 13px;
 }
 
 @media screen and (min-width: 768px) {
-  .header__nav-link {
+  .header__link_nav {
     margin-top: 22px;
     font-size: 18px;
+  }
+
+  .header__link_top {
+    margin-right: 35px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .header__nav-link {
+  .header__link_nav {
     margin-top: 30px;
   }
 }

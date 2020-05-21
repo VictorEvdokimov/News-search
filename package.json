@@ -1,6 +1,6 @@
 {
-  "name": "News-search",
-  "version": "0.1.1",
+  "name": "news-search",
+  "version": "0.1.2",
   "description": "News search and popularity analysis",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "postcss-loader": "3.0.0",
     "webpack": "4.43.0",
     "webpack-cli": "3.3.11",
-    "webpack-dev-server": "3.10.3",
+    "webpack-dev-server": "^3.11.0",
     "webpack-md5-hash": "0.0.6"
   },
   "dependencies": {

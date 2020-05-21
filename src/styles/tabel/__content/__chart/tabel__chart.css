@@ -18,7 +18,7 @@
   margin: 0;
 }
 
-.tabel__chart-line {
+.tabel__lines {
   margin: 17px auto 13px 31px;
   display: flex;
   flex: 1;
@@ -26,11 +26,11 @@
   justify-content: space-between;
 }
 
-.tabel__chart-line_percent {
+.tabel__line-percent {
   display: none;
 }
 
-.tabel__chart-line_item {
+.tabel__item-line {
   width: 30%;
   height: 24px;
   background-color: #2f71e5;
@@ -45,17 +45,17 @@
     margin-top: -16px;
   }
 
-  .tabel__chart-line {
+  .tabel__lines {
     margin: 12px auto 28px 67px;
     color: #ffffff;
   }
 
-  .tabel__chart-line_item {
+  .tabel__item-line {
     display: flex;
     align-items: center;
   }
 
-  .tabel__chart-line_percent {
+  .tabel__line-percent {
     display: flex;
     font-family: Roboto;
     font-weight: bold;
@@ -67,7 +67,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .tabel__chart-line {
+  .tabel__lines {
     margin-left: 56px;
   }
 }

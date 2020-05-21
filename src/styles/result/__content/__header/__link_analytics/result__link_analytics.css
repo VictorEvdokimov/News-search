@@ -1,11 +1,11 @@
-.result__header-link {
+.result__link_analytics {
   font-size: 18px;
   line-height: 24px;
   margin: 16px auto 36px 12px;
   color: #1a1b22;
 }
 
-.result__header-link:hover {
+.result__link_analytics:hover {
   background-color: #d9e4ee;
 }
 
@@ -16,13 +16,13 @@
     grid-column-gap: 8px;
   }
 
-  .result__header-link {
+  .result__link_analytics {
     margin: 48px 47px 0 auto;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .result__header-link {
+  .result__link_analytics {
     margin: 94px 111px auto auto;
   }
 }

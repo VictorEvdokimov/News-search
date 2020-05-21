@@ -1,7 +1,7 @@
 /* @import "./__header/result__header.css"; */
-@import "./__header-title/result__header-title.css";
-@import "./__header-link/result__header-link.css";
-@import "./__icon-arrow/result__icon-arrow.css";
+@import "./__title/result__title.css";
+@import "./__link_analytics/result__link_analytics.css";
+@import "./__arrow_img/result__arrow_img.css";
 
 .result__header {
   display: flex;

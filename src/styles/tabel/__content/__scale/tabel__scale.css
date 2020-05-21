@@ -7,7 +7,7 @@
   justify-content: space-between;
 }
 
-.tabel__scale_percent {
+.tabel__percent {
   margin: 0;
 }
 
@@ -17,7 +17,7 @@
     margin: 16px auto 0 117px;
   }
 
-  .scale_battom {
+  .tabel__scale_battom {
     margin-top: -12px;
   }
 }

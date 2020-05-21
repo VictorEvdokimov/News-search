@@ -1,0 +1,8 @@
+@import "header/header.css";
+@import "footer/footer.css";
+@import "crumbs/crumbs.css";
+@import "request-info/request-info.css";
+@import "tabel/tabel.css";
+@import "normalize.css";
+@import "fonts/fonts.css";
+@import "../styles/style.css";

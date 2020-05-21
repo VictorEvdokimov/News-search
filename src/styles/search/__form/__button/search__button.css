@@ -10,6 +10,7 @@
   background-color: #2f71e5;
   box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
   border: 1px solid #2f71e5;
+  outline:none;
 }
 
 .search__button:hover {

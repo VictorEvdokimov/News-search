@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="<%= require('./images/favicon.png').default%>">
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css[2] %>">
     <title>Что в мире творится?</title>
     <meta name="description" content="Что в мире творится?">
   </head>
@@ -13,12 +13,12 @@
       <a class="header__title header__title_black" href="index.html">NewsAnalyzer</a>
       <nav class="header__nav">
         <ul class="header__list">
-          <div class="header__item">
-            <a class="header__nav-link link-top header__link_black" href="index.html">Главная</a>
-          </div>
-          <div class="header__item">
-            <a class="header__nav-link link-about-project header__link_black" href="aboutProject.html">О проекте</a>
-          </div>
+          <li class="header__item">
+            <a class="header__link header__link_nav header__link_top header__link_black" href="index.html">Главная</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link header__link_nav headeer__link_about-project header__link_black" href="aboutProject.html">О проекте</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -37,10 +37,10 @@
     <section class="tabel">
       <h3 class="tabel__title">Аналитика по дням</h3>
       <div class="tabel__content">
-        <div class="tabel__axis">
-          <div class="tabel__axis_item">
-            <p class="tabel__axis_style axis__vertical">ДАТА</p>
-            <p class="tabel__axis_style axis__horizontal">КОЛ-ВО УПОМИНАНИЙ</p>
+        <div class="tabel__header-axis">
+          <div class="tabel__item-axis">
+            <p class="tabel__axis tabel__axis_style tabel__axis_vertical">ДАТА</p>
+            <p class="tabel__axis tabel__axis_style tabel__axis_horizontal">КОЛ-ВО УПОМИНАНИЙ</p>
           </div>
           <p class="tabel__date">(АВГУСТ)</p>
         </div>
@@ -52,7 +52,7 @@
           <li class="tabel__scale_percent">100</li>
         </ul>
         <div class="tabel__chart">
-          <dir class="tabel__chart-weekdays">
+          <div class="tabel__chart-weekdays">
             <p class="tabel__chart-day">
               <span class="tabel__date-day">19</span>, пн
             </p>
@@ -74,58 +74,64 @@
             <p class="tabel__chart-day">
               <span class="tabel__date-day">25</span>, вс
             </p>
-          </dir>
-          <div class="tabel__chart-line">
-            <div class="tabel__chart-line_item">
-              <p class="tabel__chart-line_percent">35</p>
+          </div>
+          <div class="tabel__lines">
+            <div class="tabel__item-line">
+              <p class="tabel__line-percent">35</p>
             </div>
-            <div class="tabel__chart-line_item">
-              <p class="tabel__chart-line_percent">35</p>
+            <div class="tabel__item-line">
+              <p class="tabel__line-percent">35</p>
             </div>
-            <div class="tabel__chart-line_item">
-              <p class="tabel__chart-line_percent">35</p>
+            <div class="tabel__item-line">
+              <p class="tabel__line-percent">35</p>
             </div>
-            <div class="tabel__chart-line_item">
-              <p class="tabel__chart-line_percent">35</p>
+            <div class="tabel__item-line">
+              <p class="tabel__line-percent">35</p>
             </div>
-            <div class="tabel__chart-line_item">
-              <p class="tabel__chart-line_percent">35</p>
+            <div class="tabel__item-line">
+              <p class="tabel__line-percent">35</p>
             </div>
-            <div class="tabel__chart-line_item">
-              <p class="tabel__chart-line_percent">35</p>
+            <div class="tabel__item-line">
+              <p class="tabel__line-percent">35</p>
             </div>
-            <div class="tabel__chart-line_item">
-              <p class="tabel__chart-line_percent">35</p>
+            <div class="tabel__item-line">
+              <p class="tabel__line-percent">35</p>
             </div>
           </div>
         </div>
-        <ul class="tabel__scale scale_battom">
-          <li class="tabel__scale_percent">0</li>
-          <li class="tabel__scale_percent">25</li>
-          <li class="tabel__scale_percent">50</li>
-          <li class="tabel__scale_percent">75</li>
-          <li class="tabel__scale_percent">100</li>
+        <ul class="tabel__scale tabel__scale_battom">
+          <li class="tabel__percent">0</li>
+          <li class="tabel__percent">25</li>
+          <li class="tabel__percent">50</li>
+          <li class="tabel__percent">75</li>
+          <li class="tabel__percent">100</li>
         </ul>
       </div>
     </section>
     <footer class="footer">
-      <dir class="footer__content">
-        <dir class="footer__nav">
-          <a class="footer__link footer__link_top" href="index.html">Главная</a>
-          <a class="footer__link footer__link_about-project" href="aboutProject.html">О проекте</a>
-          <a class="footer__link footer__link_yandex-practicum" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
-        </dir>
-        <dir class="footer__item-link">
-          <a class="footer__link_social_github" href="https://github.com">
-            <img class="footer__img_github footer__icon_social" src="<%= require('./images/icon-github.png').default%>" alt="Github">
+      <div class="footer__content">
+        <ul class="footer__nav">
+          <li class="footer__item">
+            <a class="footer__link-nav footer__link-nav_top" href="index.html">Главная</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link-nav footer__link-nav_about-project" href="aboutProject.html">О проекте</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link-nav footer__link-nav_yandex-practicum" href="https://praktikum.yandex.ru/">Яндекс.Практикум</a>
+          </li>
+        </ul>
+        <div class="footer__item-link">
+          <a class="footer__link footer__link_social_github" href="https://github.com">
+            <img src="<%= require('./images/icon-github.png').default%>" alt="Евдокимов Виктор">
           </a>
-          <a class="footer__link_social_facebook" href="https://facebook.com">
-            <img class="footer__img_facebook footer__icon_social" src="<%= require('./images/icon-facebook.png').default%>" alt="Facebook">
+          <a class="footer__link footer__link_social_facebook" href="https://facebook.com">
+            <img src="<%= require('./images/icon-facebook.png').default%>" alt="Facebook">
           </a>
-        </dir>
-      </dir>
+        </div>
+      </div>
       <div class="footer__copyright">© 2019. Виктор Евдокимов</div>
     </footer>
   </body>
-  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  <script src="<%= htmlWebpackPlugin.files.js[2] %>"></script>
 </html>

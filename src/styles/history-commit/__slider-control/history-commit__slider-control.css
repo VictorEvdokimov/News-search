@@ -12,21 +12,21 @@
   background-position: center;
 }
 
-.arrow_back {
+.history-commit__arrow_back {
   display: block;
   background-image: url(../../../images/slider-control-back.png);
 }
 
-.arrow_back:hover {
+.history-commit__arrow_back:hover {
   cursor: pointer;
 }
 
-.arrow_next {
+.history-commit__arrow_next {
   display: block;
   background-image: url(../../../images/slider-control-next.png);
 }
 
-.arrow_next:hover {
+.history-commit__arrow_next:hover {
   cursor: pointer;
 }
 

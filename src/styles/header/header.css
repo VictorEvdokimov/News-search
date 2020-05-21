@@ -24,10 +24,6 @@
   .header {
     height: 64px;
   }
-
-  .header-nav__link-top {
-    margin-right: 35px;
-  }
 }
 
 @media screen and (min-width: 1440px) {

@@ -1,7 +1,7 @@
-@import "./__popup_wait/result__img_ellipse.css";
-@import "./__popup_wait/result__comment-wait.css";
-@import "./__popup_err/result__title-err.css";
-@import "./__popup_err/result__comment-err.css";
+@import "./__popup_wait/result__ellipse_img.css";
+@import "./__popup_wait/result__comment_wait.css";
+@import "./__popup_err/result__title_err.css";
+@import "./__popup_err/result__comment_err.css";
 
 .result__popup {
   display: flex;

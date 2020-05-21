@@ -2,7 +2,7 @@
   margin-left: 12px;
 }
 
-.history-commit__author_name {
+.history-commit__author-name {
   font-family: roboto-slab;
   font-weight: normal;
   font-size: 20px;
@@ -10,7 +10,7 @@
   margin: 0;
 }
 
-.history-commit__author_email {
+.history-commit__author-email {
   font-family: roboto;
   font-size: 14px;
   line-height: 22px;
@@ -18,7 +18,7 @@
 }
 
 @media screen and (min-width: 1400px) {
-  .history-commit__author_name {
+  .history-commit__author-name {
     font-size: 26px;
     line-height: 30px;
   }

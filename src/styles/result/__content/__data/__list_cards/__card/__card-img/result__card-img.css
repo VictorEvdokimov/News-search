@@ -1,4 +1,4 @@
-.result__card_img {
+.result__card-img {
   min-width: 288px;
   min-height: 196px;
   border-top-left-radius: 16px;
@@ -6,34 +6,34 @@
 }
 
 @media screen and (min-width: 350px) {
-  .result__card_img {
+  .result__card-img {
     min-height: 61vw;
   }
 }
 
 @media screen and (min-width: 475px) {
-  .result__card_img {
+  .result__card-img {
     min-width: 46vw;
     min-height: 30vw;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .result__card_img {
+  .result__card-img {
     min-width: 224px;
     min-height: 150px;
   }
 }
 
 @media screen and (min-width: 769px) {
-  .result__card_img {
+  .result__card-img {
     min-width: 100%;
     min-height: 20vw;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .result__card_img {
+  .result__card-img {
     min-width: 400px;
     min-height: 272px;
   }

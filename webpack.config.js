@@ -1,26 +1,35 @@
-const path = require("path");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const WebpackMd5Hash = require("webpack-md5-hash");
-const MinifyCss = require("optimize-css-assets-webpack-plugin");
+const path = require('path');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const WebpackMd5Hash = require('webpack-md5-hash');
+const MinifyCss = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
-  entry: { main: "./src/index.js" },
+  entry: { 
+    index: './src/index.js',
+    about: './src/aboutProject.js',
+    analytics: './src/analytics.js' 
+  },
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "[name].[chunkhash].js",
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'js/[name].[chunkhash].js',
   },
   module: {
     rules: [
       {
         test: /\.js$/,
-        use: { loader: "babel-loader" },
+        use: { loader: 'babel-loader' },
         exclude: /node_modules/,
       },
       {
-        test: /\.(css)$/i,
-        use: [
-          MiniCssExtractPlugin.loader, 
+        test: /\.css$/,
+        use: [ 
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: '../'
+            }
+          }, 
           "css-loader", 
           "postcss-loader"
         ],
@@ -28,9 +37,9 @@ module.exports = {
       {
         test: /\.(png|jpe?g|gif|ico|svg)$/i,
         use: [
-          "file-loader?name=./vendor/[name].[ext]",
+          'file-loader?name=images/[name].[ext]',
           {
-            loader: "image-webpack-loader",
+            loader: 'image-webpack-loader',
             options: {},
           },
         ],
@@ -38,7 +47,7 @@ module.exports = {
       {
         test: /\.(woff|woff2|ttf|eot|otf)$/i,
         use: [
-          "file-loader?name=./fonts/[name].[ext]",
+          'file-loader?name=vendor/fonts/[name].[ext]',
         ],
       },
     ],
@@ -48,22 +57,22 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "style.[contenthash].css",
+      filename: 'css/[name].[contenthash].css',
     }),
     new HtmlWebpackPlugin({
       inject: false,
-      template: "src/index.html",
-      filename: "index.html",
+      template: 'src/index.html',
+      filename: 'index.html',
     }),
     new HtmlWebpackPlugin({
       inject: false,
-      template: "src/aboutProject.html",
-      filename: "aboutProject.html",
+      template: 'src/aboutProject.html',
+      filename: 'aboutProject.html',
     }),
     new HtmlWebpackPlugin({
       inject: false,
-      template: "src/analytics.html",
-      filename: "analytics.html",
+      template: 'src/analytics.html',
+      filename: 'analytics.html',
     }),
     new WebpackMd5Hash(),
   ],
