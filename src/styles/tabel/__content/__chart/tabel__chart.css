@@ -1,0 +1,73 @@
+.tabel__chart {
+  display: flex;
+}
+
+.tabel__date-day {
+  font-size: 18px;
+}
+
+.tabel__chart-weekdays {
+  flex-direction: column;
+  margin: 6px auto auto;
+  padding: 0;
+}
+
+.tabel__chart-day {
+  font-size: 18px;
+  line-height: 48px;
+  margin: 0;
+}
+
+.tabel__lines {
+  margin: 17px auto 13px 31px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tabel__line-percent {
+  display: none;
+}
+
+.tabel__item-line {
+  width: 30%;
+  height: 24px;
+  background-color: #2f71e5;
+}
+
+@media screen and (min-width: 768px) {
+  .tabel__chart-day {
+    line-height: 80px;
+  }
+
+  .tabel__chart-weekdays {
+    margin-top: -16px;
+  }
+
+  .tabel__lines {
+    margin: 12px auto 28px 67px;
+    color: #ffffff;
+  }
+
+  .tabel__item-line {
+    display: flex;
+    align-items: center;
+  }
+
+  .tabel__line-percent {
+    display: flex;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    margin: 0 auto 0 6px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .tabel__lines {
+    margin-left: 56px;
+  }
+}

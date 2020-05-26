@@ -1,0 +1,36 @@
+@import "./__title/request-info__title.css";
+@import "./__statistics/request-info__statistics.css";
+
+.request-info {
+  padding: 16px 16px 24px;
+}
+
+.newsWeek {
+  margin-top: 16px;
+}
+
+.repeat-req {
+  margin-top: 4px;
+}
+
+.request-info__total {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .request-info {
+    margin-top: 12px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+  }
+
+  .newsWeek {
+    margin-top: 23px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .request-info {
+    padding: 33px 33px 80px 104px;
+  }
+}

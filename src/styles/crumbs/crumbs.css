@@ -1,0 +1,35 @@
+.crumbs {
+  display: none;
+}
+
+.crumbs__item,
+.crumbs__link {
+  font-family: roboto;
+  font-size: 18px;
+  line-height: 24px;
+  color: #b6bcbf;
+}
+
+.crumbs__seperator {
+  margin-right: 3px;
+}
+
+.crumbs__link:hover {
+  color: #1a1b22;
+}
+
+@media screen and (min-width: 768px) {
+  .crumbs {
+    display: flex;
+    list-style-type: none;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .crumbs {
+    margin-top: 40px;
+    padding-left: 104px;
+  }
+}

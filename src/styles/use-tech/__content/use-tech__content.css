@@ -1,0 +1,23 @@
+@import "./__icon/use-tech__icon.css";
+
+.use-tech__content {
+  margin-top: 39px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 975px) {
+  .use-tech__content {
+    justify-content: space-around;
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .use-tech__content {
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 73px;
+  }
+}

@@ -1,0 +1,10 @@
+.history-commit__card-comment {
+  font-family: roboto;
+  font-size: 16px;
+  line-height: 22px;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+ 

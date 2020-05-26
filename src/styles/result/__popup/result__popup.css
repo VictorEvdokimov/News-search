@@ -1,0 +1,20 @@
+@import "./__popup_wait/result__ellipse_img.css";
+@import "./__popup_wait/result__comment_wait.css";
+@import "./__popup_err/result__title_err.css";
+@import "./__popup_err/result__comment_err.css";
+
+.result__popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  background: #f5f6f7;
+}
+
+.result__popup_wait {
+  /* display: none; */
+}
+
+.result__popup_err {
+  /* display: none; */
+}

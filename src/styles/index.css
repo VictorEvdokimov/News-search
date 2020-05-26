@@ -1,0 +1,9 @@
+@import "header/header.css";
+@import "footer/footer.css";
+@import "about-author/about-author.css";
+@import "search/search.css";
+@import "result/result.css";
+@import "background/index_background.css";
+@import "normalize.css";
+@import "fonts/fonts.css";
+@import "../styles/style.css";

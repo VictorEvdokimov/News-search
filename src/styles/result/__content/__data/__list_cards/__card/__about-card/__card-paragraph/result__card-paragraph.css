@@ -1,0 +1,34 @@
+.result__card-paragraph {
+  margin: 10px auto auto;
+  font-size: 16px;
+  line-height: 22px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 350px) {
+  .result__card-paragraph {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .result__card-paragraph {
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .result__card-paragraph {
+    -webkit-line-clamp: 5;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .result__card-paragraph {
+    margin: 16px auto 13px;
+    -webkit-line-clamp: 5;
+  }
+}

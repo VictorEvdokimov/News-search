@@ -1,0 +1,27 @@
+@import "./__date-card/history-commit__date-card.css";
+@import "./__card-author/history-commit__abour-author.css";
+@import "./__comment/history-commit__card-comment.css";
+
+.history-commit__link-card {
+  color: #1a1b22;
+}
+
+.history-commit__card {
+  background-color: #ffffff;
+  width: 256px;
+  height: 264px;
+  padding: 16px;
+  border-radius: 16px;
+  margin: 0;
+}
+
+.history-commit__card:hover {
+  background-color: #ececec;
+}
+
+@media screen and (min-width: 768px) {
+  .history-commit__card {
+    width: 304px;
+    height: 242px;
+  }
+}

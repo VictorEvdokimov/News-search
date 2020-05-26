@@ -1,0 +1,33 @@
+@import "./__title/header__title.css";
+@import "./__nav/header__nav.css";
+@import "./__nav/__item/header__item.css";
+
+.header {
+  height: 56px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: inset 0px -1px 0px 0px rgba(255, 255, 255, 0.2);
+}
+
+.header_light {
+  box-shadow: inset 0px -1px 0px #d1d2d6;
+}
+
+.link_light:hover {
+  border-bottom: 3px solid #ffffff;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    height: 64px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    height: 80px;
+  }
+}

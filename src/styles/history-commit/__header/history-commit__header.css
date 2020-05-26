@@ -1,0 +1,26 @@
+@import "./__title/history-commit__title.css";
+@import "./__item-link/history-commit__item-link.css";
+
+.history-commit__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 375px) {
+  .history-commit__header {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .history-commit__header {
+    padding: 8px 24px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .history-commit__header {
+    padding-top: 13px;
+    padding-left: 87px;
+  }
+}

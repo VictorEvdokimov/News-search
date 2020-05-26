@@ -1,0 +1,19 @@
+@import "./__card/history-commit__card.css";
+
+.history-commit__list {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .history-commit__list {
+    margin-top: 22px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .history-commit__list {
+    margin-top: 65px;
+  }
+}

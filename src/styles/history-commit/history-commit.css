@@ -1,0 +1,18 @@
+@import "./__header/history-commit__header.css";
+@import "./__list/history-commit__list.css";
+@import "./__slider-control/history-commit__slider-control.css";
+@import "./__controller/history-commit__controller.css";
+@import "./__button/history-commit__button.css";
+
+.history-commit {
+  background-color: #f5f6f7;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-commit {
+    padding-bottom: 40px;
+  }
+}

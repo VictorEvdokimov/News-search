@@ -1,0 +1,40 @@
+.history-commit__controller {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.history-commit__select1 {
+  margin: 0 4px;
+  width: 8px;
+  height: 8px;
+  background-color: #1a1b22;
+  border: 1px solid #1a1b22;
+  border-radius: 8px;
+}
+
+.history-commit__select {
+  margin: 0 4px;
+  width: 8px;
+  height: 8px;
+  background-color: #d1d2d6;
+  border: 1px solid #d1d2d6;
+  border-radius: 8px;
+}
+
+.history-commit__select:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .history-commit__controller {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .history-commit__controller {
+    margin-top: 8px;
+  }
+}

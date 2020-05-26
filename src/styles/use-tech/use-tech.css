@@ -1,0 +1,22 @@
+@import "./__title/use-tech__title.css";
+@import "./__content/use-tech__content.css";
+
+.use-tech {
+  padding: 32px 16px 38px;
+  background: #f5f6f7;
+}
+
+@media screen and (min-width: 975px) {
+  .use-tech {
+    display: flex;
+    padding: 80px 80px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .use-tech {
+    padding-left: 104px;
+    padding-right: 104px;
+    padding-bottom: 87px;
+  }
+}

@@ -1,0 +1,21 @@
+@import "./__item/search__item.css";
+@import "./__form/search__form.css";
+
+.search {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .search {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

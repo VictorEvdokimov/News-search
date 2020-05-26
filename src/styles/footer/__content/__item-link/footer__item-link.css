@@ -1,0 +1,19 @@
+@import "./__link_social/footer__link_social.css";
+
+.footer__item-link {
+  display: flex;
+  padding: 0;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__item-link {
+    margin: 0 40px auto auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__item-link {
+    margin: 0;
+  }
+}

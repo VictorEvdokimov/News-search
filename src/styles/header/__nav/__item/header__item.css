@@ -1,0 +1,9 @@
+@import "./__link_nav/header__link_nav.css";
+
+.header__item {
+  display: flex;
+}
+
+.header__list {
+  display: flex;
+}

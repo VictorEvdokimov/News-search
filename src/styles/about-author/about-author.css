@@ -1,0 +1,31 @@
+@import "./__avatar/about-author__img_avatar.css";
+@import "./__article/about-author__article.css";
+
+.about-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 375px) {
+  .about-author {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-author {
+    margin: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 38px;
+  }
+}
+
+
+@media screen and (min-width: 1440px) {
+  .about-author {
+    margin: auto 0 70px;
+  }
+}
